@@ -69,4 +69,8 @@ class Dog
       self.new_from_db(dog.first)
     end
   end
+  
+  def self.find_by_name(name)
+    
+  end
 end
