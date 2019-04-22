@@ -21,4 +21,13 @@ class Dog
   def self.drop_table
     DB[:conn].execute("DROP TABLE dogs")
   end
+  
+  def save
+    
+    sql = <<-SQL
+      SELECT *
+      FROM dogs
+      WHERE
+    SQL
+  end
 end
